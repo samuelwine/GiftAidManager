@@ -1,0 +1,15 @@
+{
+"$schema": "http://json.schemastore.org/template",
+"author": "Steve Smith, Erik Dahl",
+"classifications": [
+"cleanarch","clean architecture","solution","ddd","ardalis","solid","onion","hexagonal"
+],
+"tags": {
+"language": "C#"
+},
+"identity": "Clean.Architecture",
+"name": "Steve (@ardalis) Smith Clean Architecture",
+"shortName": "clean-arch",
+"sourceName": "Clean.Architecture",
+"preferNameDirectory": true
+}
