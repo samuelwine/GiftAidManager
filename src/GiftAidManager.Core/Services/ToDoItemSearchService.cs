@@ -34,7 +34,6 @@ namespace GiftAidManager.Core.Services
             }
 
             var projectSpec = new ProjectByIdWithItemsSpec(projectId);
-            //var project = await _repository.GetBySpecAsync(projectSpec);
             var project = await _repository.GetBySpecAsync(projectSpec);
 
             // TODO: Optionally use Ardalis.GuardClauses Guard.Against.NotFound and catch
