@@ -9,4 +9,6 @@
     <PackageReference Include="MediatR" Version="9.0.0" />
   </ItemGroup>
 
+	<Nullable>enable</Nullable>
+	
 </Project>

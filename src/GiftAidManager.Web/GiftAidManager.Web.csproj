@@ -26,5 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\GiftAidManager.Infrastructure\GiftAidManager.Infrastructure.csproj" />
   </ItemGroup>
+	
+	<Nullable>enable</Nullable>
   
 </Project>

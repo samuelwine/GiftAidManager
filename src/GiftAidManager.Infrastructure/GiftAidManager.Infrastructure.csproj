@@ -21,4 +21,7 @@
     <ProjectReference Include="..\GiftAidManager.Core\GiftAidManager.Core.csproj" />
     <ProjectReference Include="..\GiftAidManager.SharedKernel\GiftAidManager.SharedKernel.csproj" />
   </ItemGroup>
+
+	<Nullable>enable</Nullable>
+	
 </Project>
