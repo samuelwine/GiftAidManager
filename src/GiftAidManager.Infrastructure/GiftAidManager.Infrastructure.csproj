@@ -3,6 +3,7 @@
   
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+	  <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,7 +22,4 @@
     <ProjectReference Include="..\GiftAidManager.Core\GiftAidManager.Core.csproj" />
     <ProjectReference Include="..\GiftAidManager.SharedKernel\GiftAidManager.SharedKernel.csproj" />
   </ItemGroup>
-
-	<Nullable>enable</Nullable>
-	
 </Project>
