@@ -3,6 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Ardalis.EFCore.Extensions;
 using GiftAidManager.Core.ProjectAggregate;
+using GiftAidManager.Core.AccountAggregate;
 using GiftAidManager.SharedKernel;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +26,8 @@ namespace GiftAidManager.Infrastructure.Data
 
         public DbSet<ToDoItem> ToDoItems { get; set; }
         public DbSet<Project> Projects { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
