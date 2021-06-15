@@ -18,8 +18,4 @@
     <ProjectReference Include="..\GiftAidManager.SharedKernel\GiftAidManager.SharedKernel.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Entities\" />
-  </ItemGroup>
-
 </Project>
